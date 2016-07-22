@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MapViewController.h
 //  ConferenceManager
 //
 //  Created by Gupta, Aman on 7/19/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MapViewController : UIViewController
 
 @end
-

@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		10DA1DEE1D3EA715002CD764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1DED1D3EA715002CD764 /* main.m */; };
 		10DA1DF11D3EA715002CD764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1DF01D3EA715002CD764 /* AppDelegate.m */; };
-		10DA1DF41D3EA715002CD764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1DF31D3EA715002CD764 /* ViewController.m */; };
 		10DA1DF71D3EA715002CD764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA1DF51D3EA715002CD764 /* Main.storyboard */; };
 		10DA1DF91D3EA715002CD764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DA1DF81D3EA715002CD764 /* Assets.xcassets */; };
 		10DA1DFC1D3EA715002CD764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA1DFA1D3EA715002CD764 /* LaunchScreen.storyboard */; };
 		10DA1E071D3EA715002CD764 /* ConferenceManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E061D3EA715002CD764 /* ConferenceManagerTests.m */; };
 		10DA1E121D3EA715002CD764 /* ConferenceManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E111D3EA715002CD764 /* ConferenceManagerUITests.m */; };
+		10DA1E241D3EA784002CD764 /* ConferenceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E211D3EA784002CD764 /* ConferenceFactory.m */; };
+		10DA1E251D3EA784002CD764 /* OxygenBlastCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E231D3EA784002CD764 /* OxygenBlastCourse.m */; };
+		10DA1E2C1D3EC0B1002CD764 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E2B1D3EC0B1002CD764 /* DetailsViewController.m */; };
+		10DA1E321D3EC0DA002CD764 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E311D3EC0DA002CD764 /* NotesViewController.m */; };
+		10DA1E351D3EC100002CD764 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E341D3EC100002CD764 /* MapViewController.m */; };
+		10DA1E381D3EC113002CD764 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1E371D3EC113002CD764 /* WebViewController.m */; };
+		10DA1EC21D400E2A002CD764 /* AllCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1EC11D400E2A002CD764 /* AllCoursesViewController.m */; };
+		10DA1EC51D400E43002CD764 /* BooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1EC41D400E43002CD764 /* BooksViewController.m */; };
+		10DA1EC81D4170D5002CD764 /* BookRecommendationsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1EC71D4170D5002CD764 /* BookRecommendationsService.m */; };
+		10DA1ECC1D417465002CD764 /* BookCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DA1ECB1D417465002CD764 /* BookCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		10DA1DED1D3EA715002CD764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10DA1DEF1D3EA715002CD764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10DA1DF01D3EA715002CD764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10DA1DF21D3EA715002CD764 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10DA1DF31D3EA715002CD764 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10DA1DF61D3EA715002CD764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10DA1DF81D3EA715002CD764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DA1DFB1D3EA715002CD764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,26 @@
 		10DA1E0D1D3EA715002CD764 /* ConferenceManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConferenceManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DA1E111D3EA715002CD764 /* ConferenceManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConferenceManagerUITests.m; sourceTree = "<group>"; };
 		10DA1E131D3EA715002CD764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DA1E201D3EA776002CD764 /* ConferenceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConferenceFactory.h; sourceTree = "<group>"; };
+		10DA1E211D3EA784002CD764 /* ConferenceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConferenceFactory.m; sourceTree = "<group>"; };
+		10DA1E221D3EA784002CD764 /* OxygenBlastCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OxygenBlastCourse.h; sourceTree = "<group>"; };
+		10DA1E231D3EA784002CD764 /* OxygenBlastCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OxygenBlastCourse.m; sourceTree = "<group>"; };
+		10DA1E2A1D3EC0B1002CD764 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		10DA1E2B1D3EC0B1002CD764 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		10DA1E301D3EC0DA002CD764 /* NotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		10DA1E311D3EC0DA002CD764 /* NotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		10DA1E331D3EC100002CD764 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		10DA1E341D3EC100002CD764 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		10DA1E361D3EC113002CD764 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		10DA1E371D3EC113002CD764 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		10DA1EC01D400E2A002CD764 /* AllCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllCoursesViewController.h; sourceTree = "<group>"; };
+		10DA1EC11D400E2A002CD764 /* AllCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllCoursesViewController.m; sourceTree = "<group>"; };
+		10DA1EC31D400E43002CD764 /* BooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksViewController.h; sourceTree = "<group>"; };
+		10DA1EC41D400E43002CD764 /* BooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksViewController.m; sourceTree = "<group>"; };
+		10DA1EC61D4170D5002CD764 /* BookRecommendationsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookRecommendationsService.h; sourceTree = "<group>"; };
+		10DA1EC71D4170D5002CD764 /* BookRecommendationsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookRecommendationsService.m; sourceTree = "<group>"; };
+		10DA1ECA1D417465002CD764 /* BookCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCollectionViewCell.h; sourceTree = "<group>"; };
+		10DA1ECB1D417465002CD764 /* BookCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,11 @@
 		10DA1DEB1D3EA715002CD764 /* ConferenceManager */ = {
 			isa = PBXGroup;
 			children = (
+				10DA1EC91D417434002CD764 /* Views */,
+				10DA1E261D3EC05E002CD764 /* View Controllers */,
+				10DA1E1F1D3EA72A002CD764 /* Model */,
 				10DA1DEF1D3EA715002CD764 /* AppDelegate.h */,
 				10DA1DF01D3EA715002CD764 /* AppDelegate.m */,
-				10DA1DF21D3EA715002CD764 /* ViewController.h */,
-				10DA1DF31D3EA715002CD764 /* ViewController.m */,
 				10DA1DF51D3EA715002CD764 /* Main.storyboard */,
 				10DA1DF81D3EA715002CD764 /* Assets.xcassets */,
 				10DA1DFA1D3EA715002CD764 /* LaunchScreen.storyboard */,
@@ -138,6 +166,47 @@
 				10DA1E131D3EA715002CD764 /* Info.plist */,
 			);
 			path = ConferenceManagerUITests;
+			sourceTree = "<group>";
+		};
+		10DA1E1F1D3EA72A002CD764 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10DA1EC61D4170D5002CD764 /* BookRecommendationsService.h */,
+				10DA1EC71D4170D5002CD764 /* BookRecommendationsService.m */,
+				10DA1E211D3EA784002CD764 /* ConferenceFactory.m */,
+				10DA1E221D3EA784002CD764 /* OxygenBlastCourse.h */,
+				10DA1E231D3EA784002CD764 /* OxygenBlastCourse.m */,
+				10DA1E201D3EA776002CD764 /* ConferenceFactory.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		10DA1E261D3EC05E002CD764 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10DA1E2A1D3EC0B1002CD764 /* DetailsViewController.h */,
+				10DA1E2B1D3EC0B1002CD764 /* DetailsViewController.m */,
+				10DA1E301D3EC0DA002CD764 /* NotesViewController.h */,
+				10DA1E311D3EC0DA002CD764 /* NotesViewController.m */,
+				10DA1E331D3EC100002CD764 /* MapViewController.h */,
+				10DA1E341D3EC100002CD764 /* MapViewController.m */,
+				10DA1E361D3EC113002CD764 /* WebViewController.h */,
+				10DA1E371D3EC113002CD764 /* WebViewController.m */,
+				10DA1EC01D400E2A002CD764 /* AllCoursesViewController.h */,
+				10DA1EC11D400E2A002CD764 /* AllCoursesViewController.m */,
+				10DA1EC31D400E43002CD764 /* BooksViewController.h */,
+				10DA1EC41D400E43002CD764 /* BooksViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		10DA1EC91D417434002CD764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10DA1ECA1D417465002CD764 /* BookCollectionViewCell.h */,
+				10DA1ECB1D417465002CD764 /* BookCollectionViewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DA1DF41D3EA715002CD764 /* ViewController.m in Sources */,
+				10DA1E321D3EC0DA002CD764 /* NotesViewController.m in Sources */,
+				10DA1EC51D400E43002CD764 /* BooksViewController.m in Sources */,
+				10DA1EC21D400E2A002CD764 /* AllCoursesViewController.m in Sources */,
+				10DA1E381D3EC113002CD764 /* WebViewController.m in Sources */,
 				10DA1DF11D3EA715002CD764 /* AppDelegate.m in Sources */,
+				10DA1ECC1D417465002CD764 /* BookCollectionViewCell.m in Sources */,
+				10DA1E251D3EA784002CD764 /* OxygenBlastCourse.m in Sources */,
+				10DA1E351D3EC100002CD764 /* MapViewController.m in Sources */,
+				10DA1E2C1D3EC0B1002CD764 /* DetailsViewController.m in Sources */,
+				10DA1E241D3EA784002CD764 /* ConferenceFactory.m in Sources */,
 				10DA1DEE1D3EA715002CD764 /* main.m in Sources */,
+				10DA1EC81D4170D5002CD764 /* BookRecommendationsService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
